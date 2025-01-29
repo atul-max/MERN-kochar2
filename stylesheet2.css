@@ -5,17 +5,18 @@ body{
     overflow: auto;
 }
 .navbar{
-    background-color: #ab9292;
+    background-color: #0f0909;
     overflow: hidden;
 }
-.list{
+ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
-li{
-    float: left;
-    padding: 10px;
+li {
+    float: right;
+    padding: 0px;  
+    margin: 5px;
 }
 img{
     position: absolute;
