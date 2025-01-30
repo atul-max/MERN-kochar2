@@ -6,8 +6,10 @@ body{
     font-family: Arial, sans-serif;
 }
 .navbar{
+    position: relative;
     background-color: #0f0909;
     overflow: hidden;
+    z-index: 1000;
 }
 .nav-list{
     list-style-type: none;
@@ -28,7 +30,7 @@ h1{
     text-align: center;
     color: white;
     font-size: medium;
-    font-size: 100px;
+    font-size: 95px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 4px 4px 4px #000000;
 }
@@ -86,6 +88,8 @@ a:hover{
     align-items: center;
     top: 0;
     width: 100%;
+    overflow: hidden;
+    z-index: 1;
 }
 .footer{
     background: #b5a4a4;
