@@ -1,0 +1,31 @@
+body{
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    background-color: skyblue;
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: lightslategray;
+}
+#num1, #num2, input, #operator, button{
+    margin: 0 10px;
+    color:  rgba(0, 0, 0, 0.571);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
