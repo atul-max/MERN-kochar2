@@ -1,0 +1,19 @@
+#onbutton{
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+#offbutton{
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+img{
+    display: none;
+}

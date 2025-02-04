@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="stylesheet4.css">
+<body>
+    <div class="container">
+        <img src="images/on bulb.png" alt="on bulb" id="onbulb">
+        <img src="images/off bulb.png" alt="off bulb" id="offbulb">
+    </div>
+    <button id="onbutton" onclick="Showimage1()">ON</button>
+    <button id="offbutton" onclick="Showimage2()">OFF</button>
+    <script>
+        function Showimage1() {
+            document.getElementById('onbulb').style.display = 'block';
+            document.getElementById('offbulb').style.display = 'none';
+        }
+        function Showimage2() {
+            document.getElementById('onbulb').style.display = 'none';
+            document.getElementById('offbulb').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
