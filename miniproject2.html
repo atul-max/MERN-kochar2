@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet5.css">
+</head>
+<body onclick="changethecolor()">
+    <h1>Click anywhere to change the color</h1>
+    <script>
+        function changethecolor(){
+           const abc =  `rgb(${Math.floor(Math.random()*256)},
+                             ${Math.floor(Math.random()*256)}, 
+                             ${Math.floor(Math.random()*256)})`;
+            document.body.style.backgroundColor = abc;
+        }
+    </script>  
+    
+</body>
+</html>
