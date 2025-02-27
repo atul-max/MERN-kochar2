@@ -19,11 +19,11 @@ let cur_mode = "light";
 mode.addEventListener('click',() =>{
     if(cur_mode =="light"){
         document.querySelector('body').style.backgroundColor ="black"
-        document.querySelector('p').style.color ="white"
+        document.querySelector('body').style.color ="white"
         cur_mode ="dark";
     }else{
         cur_mode = "light";
         document.querySelector('body').style.backgroundColor ="white"
-        document.querySelector('p').style.color ="black"
+        document.querySelector('body').style.color ="black"
     }
 })
