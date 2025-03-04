@@ -1,0 +1,16 @@
+body{
+    align-content: center;
+}
+.clock {
+    font-size: 4rem;
+    width: 500px;
+    margin: 200px;
+    text-align: center;
+}
+.date{
+    font-size: 3rem;
+    width: 500px;
+    margin: 200px;
+    margin-top: 0;
+    text-align: center;
+}
